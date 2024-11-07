@@ -12,7 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="page-container">
@@ -136,9 +136,8 @@
 <!-- Tombol Back to Top -->
 <button id="backToTop" title="Back to Top">&uarr;</button>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<scrip src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-</script>
 
 </body>
 </html>
@@ -267,6 +266,44 @@
             </div>
           </div>
         </section>
+        <style>
+          /* Gaya untuk blok universitas */
+          .university-info {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 2px solid #4CAF50;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background-color: #f9f9f9;
+            text-align: center;
+            font-family: Arial, sans-serif;
+          }
+          .university-info h2 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+          }
+          .university-info p {
+            font-size: 16px;
+            line-height: 1.6;
+          }
+          .university-info .highlight {
+            color: #d9534f;
+            font-weight: bold;
+          }
+        </style>
+      </head>
+      <body>
+      
+      <div class="university-info">
+        <h2>Universitas Gemek Maju</h2>
+        <p>Universitas Gemek Maju merupakan salah satu perguruan tinggi terbaik di Indonesia yang telah meraih <span class="highlight">Akreditasi A</span> dari Badan Akreditasi Nasional Perguruan Tinggi (BAN-PT). Dengan pencapaian ini, Universitas Gemek Maju berkomitmen untuk terus menyediakan pendidikan berkualitas yang sejalan dengan standar internasional.</p>
+        <p>Kampus ini menawarkan berbagai program studi yang berkualitas di bidang sains,dan teknologi didukung oleh fasilitas modern serta tenaga pengajar berpengalaman. Tujuan kami adalah untuk mempersiapkan mahasiswa menjadi lulusan yang kompeten dan siap bersaing di dunia kerja global.</p>
+        <p><strong>Alamat:</strong> Jl. Pendidikan No. 45, Jakarta, Indonesia<br>
+           <strong>Telepon:</strong>(021) 1234-5678<br>
+           <strong>Email:</strong> info@universitasgemekmaju.ac.id
+        </p>
+      </div>
 
         <section class="py-5">
           <div class="container">
@@ -316,46 +353,27 @@
                       menjadi pusat informasi, kolaborasi, dan inovasi bagi kita
                       semua
                     </p>
-                    <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+                    
                   </div>
                 </div>
               </div>
+            
               <div class="col-md-6 mb-3">
                 <div class="card">
-                  <div class="video-container">
-                    <video id="video" style="width: 100%" controls>
-                      <source src="vidio harlah.mp4" type="video/mp4" />
-                    </video>
-                    <div class="play-button" onclick="togglePlayPause()">▶️</div>
-                  </div>
-              
-                  <div id="myModal" class="modal">
-                    <span class="close" onclick="closeModal()">&times;</span>
-                    <img class="modal-content" id="modalImg" />
-                  </div>
-                  <script>
-                    const video = document.getElementById("video ");
-                    const playButton = document.querySelector(".play-button");
-              
-                    function togglePlayPause() {
-                      if (video.paused) {
-                        video.play();
-                        playButton.style.display = "none";
-                      } else {
-                        video.pause();
-                        playButton.style.display = "block";
-                      }
-                    }
-                  </script>
+                  <img
+                    src="mubes himatika.jpg" height="310" width="500"
+                    class="card-img-top"
+                    alt="News 1"
+                  />
                   <div class="card-body">
                     <h5 class="card-title">
-                      Prestasi Mahasiswa di Kompetisi Internasional
+                    HIMATIKA GELAR MUSYAWARAH BESAR DAN PEMILIHAN MANDATARIS KETUA HIMATIKA PERIODE 2024-2025
                     </h5>
                     <p class="card-text">
-                      Tim mahasiswa Universitas Nusantara meraih juara 1 dalam
-                      kompetisi robotika internasional di Jepang.
+                      Senin, 19 Agustus 2024 di Aula Gedung A Lt 3 telah terlaksana acara MUBES HIMATIKA KE-IV yang di ikuti oleh mahasiswa/i program studi informatika.
+                      
                     </p>
-                    <a href="#" class="btn btn-primary">Baca Selengkapnya</a>
+
                   </div>
                 </div>
               </div>
@@ -363,13 +381,97 @@
           </div>
         </section>
       </div>
+      <style>
+        .join-us {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      border: 2px solid #007BFF;
+      border-radius: 10px;
+      background-color: #f0f8ff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    .join-us h2 {
+      color: #007BFF;
+      margin-bottom: 15px;
+    }
+    .join-us p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #333;
+    }
+    .join-us .cta-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: #fff;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .join-us .cta-button:hover {
+      background-color: #0056b3;
+    }
+      </style>
+      <div class="join-us">
+        <h2>Bergabunglah Bersama Kami di Universitas Gemek Maju!</h2>
+        <p>Dengan akreditasi <strong>A</strong> dari Badan Akreditasi Nasional Perguruan Tinggi (BAN-PT), Universitas Gemilang Jaya adalah pilihan tepat untuk masa depan yang gemilang. Bergabunglah dengan kami dan rasakan pengalaman pendidikan yang berkualitas tinggi bersama pengajar berkompeten dan fasilitas modern.</p>
+        <p>Kami menawarkan berbagai program studi unggulan yang siap membekali Anda dengan keterampilan dan pengetahuan yang dibutuhkan untuk sukses di dunia kerja global. Jadilah bagian dari komunitas akademik yang inovatif, dinamis, dan siap menghadapi tantangan masa depan!</p>
+        <a href="form.html" class="cta-button">Daftar Sekarang</a>
+      </div>
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Google Maps Embed</title>
+  <style>
+    /* Gaya untuk membungkus peta */
+    .map-container {
+      width: 100%;
+      max-width: 800px;
+      margin: 20px auto;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .map-container iframe {
+      width: 100%;
+      height: 450px;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+<h2 style="text-align: center;">Lokasi Kami</h2>
+
+<!-- Blok Google Maps -->
+<div class="map-container">
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5022.229380571816!2d109.63662826098631!3d-6.95896604216429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e702172a2e3189d%3A0x3fcfb5999832f6e!2sJl.%20Widya%20Manggala%2C%20Podo%20Lor%2C%20Kedungwuni%20Bar.%2C%20Kec.%20Kedungwuni%2C%20Kabupaten%20Pekalongan%2C%20Jawa%20Tengah%2051173!5e0!3m2!1sid!2sid!4v1730933564752!5m2!1sid!2sid"
+    
+    allowfullscreen="" 
+    loading="lazy">
+  </iframe>
+</div>
+
+</body>
+</html>
+
 
       <footer class="bg-dark text-white py-4">
         <div class="container">
           <div class="row">
             <div class="col-md-6">
               <h5>Universitas Gemek Maju</h5>
-              <p>Jl. Pendidikan No. 123, Jakarta, Indonesia</p>
+              <p>Jl. Pendidikan No. 123, Gemek, Indonesia</p>
               <p>Telepon: (021) 1234-5678</p>
               <p>Email: info@universitasgemekmaju.ac.id</p>
             </div>
